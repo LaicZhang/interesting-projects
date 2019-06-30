@@ -13,4 +13,8 @@ Some projects about my idea.
       <a href=http://39.96.24.63/wp-content/uploads/2019/06/New.html>演示链接</a>
     </td>
   </tr>
+  <tr>
+    <td>
+	  <a href="">中国象棋</a>
+	</td>
 </table>
