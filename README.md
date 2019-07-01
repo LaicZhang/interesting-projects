@@ -19,7 +19,7 @@ Some projects about my idea.
   </tr>
   <tr>
     <td>
-      <a href="">中国象棋</a>
+      <a href="https://github.com/LaicZhang/interesting-projects/tree/master/Chinesechess">中国象棋</a>
     </td>
     <td>
       <a href="">演示链接</a>
