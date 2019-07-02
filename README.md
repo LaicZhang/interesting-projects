@@ -32,7 +32,7 @@ Some projects about my idea.
 
 <ul type="circle">
   <li>
-    <p><a href="">学生成绩管理系统v1.0</a></p>
+    <p><a href="https://github.com/LaicZhang/interesting-projects/blob/master/student-manage-systemv1.0.cpp">学生成绩管理系统v1.0</a></p>
         <p><a href="">基于Qt的学生管理系统v2.0</a></p>
       </li>
 </ul>
