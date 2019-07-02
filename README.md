@@ -27,3 +27,12 @@ Some projects about my idea.
   </tr>	  
 </table>
 </ul>
+
+- C/C++
+
+<ul type="circle">
+  <li>
+    <p><a href="">学生成绩管理系统v1.0</a></p>
+        <p><a href="">基于Qt的学生管理系统v2.0</a></p>
+      </li>
+</ul>
