@@ -35,4 +35,8 @@ Some projects about my idea.
     <p><a href="https://github.com/LaicZhang/interesting-projects/blob/master/student-manage-systemv1.0.cpp">学生成绩管理系统v1.0</a></p>
         <p><a href="https://github.com/LaicZhang/interesting-projects/tree/master/student_score_system">基于Qt的学生管理系统v2.0</a></p>
       </li>
+  <li>
+    <p><a href="https://github.com/LaicZhang/interesting-projects/blob/master/student-manage-systemv1.0.cpp">ATM柜员机模拟程序v1.0</a></p>
+        <p><a href="https://github.com/LaicZhang/interesting-projects/tree/master/student_score_system">基于Qt的ATM柜员机模拟程序v2.0</a></p>
+      </li>
 </ul>
