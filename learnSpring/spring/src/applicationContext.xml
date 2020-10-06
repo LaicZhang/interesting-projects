@@ -17,5 +17,8 @@
     <bean name="c" class="cn.zyha.pojo.Category">
         <property name="name" value="category 1" />
     </bean>
-  
+    <bean name="p" class="cn.zyha.pojo.Product">
+    	<property name="name" value="product 1" />
+    	<property name="category" ref="c"></property>
+    </bean>
 </beans>

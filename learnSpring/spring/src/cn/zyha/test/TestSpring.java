@@ -7,11 +7,11 @@ import cn.zyha.pojo.*;
 
 public class TestSpring {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext(
-                new String[] { "applicationContext.xml" });
- 
+        ApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "applicationContext.xml" });
         Category c = (Category) context.getBean("c");
-         
         System.out.println(c.getName());
+        
+        Product p = (Product) context.getBean("p");
+        System.out.println(p.getName());
     }
 }
