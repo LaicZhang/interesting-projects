@@ -13,12 +13,12 @@
    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
    http://www.springframework.org/schema/context     
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
-  <context:annotation-config /><!--表示告诉Spring要用注解的方式进行配置-->
+  
     <bean name="c" class="cn.zyha.pojo.Category">
         <property name="name" value="category 1" />
     </bean>
     <bean name="p" class="cn.zyha.pojo.Product">
     	<property name="name" value="product 1" />
-    	<!-- <property name="category" ref="c"></property> -->
+    	<property name="category" ref="c"></property>
     </bean>
 </beans>

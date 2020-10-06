@@ -16,7 +16,7 @@
  *    形如：
  *    @Resource(name="c")
  *    private Category category;
- * 4. 对Bean进行注解配置(未实验)
+ * 4. 对Bean进行注解配置
  *    1. 修改applicationContext.xml，什么都去掉，只新增：<context:component-scan base-package="cn.zyha.pojo"/>
  * 其作用是告诉Spring，bean都放在cn.zyha.pojo这个包下
  *    2. 为Product类加上@Component注解，即表明此类是bean
@@ -33,15 +33,12 @@
  */
 package cn.zyha.pojo;
 
-import javax.annotation.Resource;
-
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Product {
 	private int id;
 	private String name;
-//	@Autowired
-//	@Resource(name="c")
+	@Autowired
 	private Category category;
 	
     public void setId(int id){
