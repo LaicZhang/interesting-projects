@@ -1,0 +1,12 @@
+<beans>
+	<!-- 声明业务对象 -->
+	<bean name="s" class="cn.zyha.service.ProductService"></bean>
+	<!-- 声明日志切面 -->
+	<bean id="loggerAspect" class="cn.zyha.aspect.LoggerAspect"></bean>
+	<!-- 指定核心业务功能 -->
+	<aop:pointcut id="loggerCutpoint" expression="execution(* com.how2java.service.ProductService.*(..)) "/>
+	<!-- 指定辅助功能 -->
+	<aop:aspect id="logAspect" ref="loggerAspect">
+		<aop:around pointcut-ref="loggerCutpoint" method="log"/>
+	</aop:aspect>
+</beans>
