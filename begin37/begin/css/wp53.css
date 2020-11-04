@@ -1,0 +1,58 @@
+/* wp5.3 */
+.option .checkbox {
+	border-radius: 16px !important;
+}
+
+.option input, 
+.option select, 
+.option textarea {
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.option input:focus, 
+.option select:focus, 
+.option textarea:focus {
+	border: 1px solid #fff;
+	outline: none
+}
+
+#optionsframework input[type="radio"]:focus {
+	border-color: #ddd !important;
+	box-shadow: none !important;
+}
+
+#optionsframework input[type="checkbox"]:focus {
+	border: none;
+	box-shadow: none !important;
+}
+
+#optionsframework .button-secondary, 
+#optionsframework .button {
+	color: #666;
+	background: #f1f1f1;
+	border: 1px solid #ddd;
+}
+
+#optionsframework .wp-color-result-text {
+	line-height: 26px !important;
+}
+
+#optionsframework input[type="radio"] {
+	border-radius: 50%;
+}
+
+#optionsframework .wp-core-ui .button:focus {
+	box-shadow: none !important;
+}
+
+.cat_upload_cover_button, 
+.cat_remove_cover_button, 
+.zm_remove_image_button, 
+.zm_upload_image_button {
+	margin: 5px 0 0 0 !important;
+}
+
+.components-button.block-editor-block-switcher__no-switcher-icon:disabled .block-editor-block-icon.has-colors {
+	background: #fff !important;
+}
