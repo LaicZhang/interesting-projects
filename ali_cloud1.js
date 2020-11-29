@@ -1,3 +1,4 @@
+// 改收货地址 控制台输入 整点拉滑块一键领取
 $(".detail-left")[3].id="developer-submit-slider-one"
 var cc = new window.noCaptcha({
                         renderTo: "#developer-submit-slider-one",
